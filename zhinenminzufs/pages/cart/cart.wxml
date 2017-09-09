@@ -35,7 +35,7 @@
       <view class="carts-text">
         <text class="carts-title">{{item.pro_name}}</text>
 
-       <view class="carts-one" wx:if="{{item.g_name!=''}}">
+       <view class="carts-one" wx:if="{{item.buff!='' && item.buff!='undefined'}}">
           属性：<text>{{item.buff}}</text>
        </view> 
 
